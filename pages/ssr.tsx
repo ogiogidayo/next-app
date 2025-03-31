@@ -16,7 +16,7 @@ const SSR: NextPage<SSRProps> = (props) => {
             </Head>
             <main>
                 <p>
-                    このページはサーバーサイドレタリングによってアクセス時にサーバーで描画されたページです。
+                    This page was generated at runtime using SSR
                 </p>
                 <p>{message}</p>
             </main>
